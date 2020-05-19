@@ -1,0 +1,27 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "logs.warning",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+          "column": "source"
+      }
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+          "column": "website"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+          "column": "website"
+      }
+    }
+  ],
+  "meta": {
+    "great_expectations.__version__": "0.10.8"
+  }
+}
